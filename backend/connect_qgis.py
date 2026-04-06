@@ -7,7 +7,7 @@ from groq import Groq
 
 language = APIRouter(tags=["Natural Language Query"])
 
-BASE_URL = "http://localhost/qgis/qgis_mapserv.fcgi.exe"
+BASE_URL = "http://localhost/qgis/qgis_mapserv.fcgi.exe"   # Update this to your QGIS Server
 MAP = "D:/qgis_projects/project_3.qgz"  #here put the path to your qgis project file
 
 client = Groq(api_key="")  #HERE PUT THE GROQ API KEY
