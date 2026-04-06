@@ -1,4 +1,4 @@
-#  GeoQuery AI — Natural Language GIS Explorer
+# Natural Language QGIS Explorer
 
 A full-stack GIS application that lets you query geospatial layers from a **QGIS Server** project using plain English sentences. Powered by **Llama 3.3 70B** (via Groq) and **OGC WFS**, it converts natural language into precise OGC XML filters and renders the results on an interactive map.
 
